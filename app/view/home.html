@@ -1,0 +1,14 @@
+<header>
+	<h1>Partes de Trabajo</h1>
+</header>
+<nav>
+	<ul>
+			<li><a [routerLink]="['ClientesList']">Clientes</a></li>
+			<li><a [routerLink]="['ClienteEdit',{nuevo: false}]">Crear Cliente</a></li>
+			<li><a [routerLink]="['PartesList']">Partes</a></li>
+			<li>Nuevo Parte</li>
+	</ul>
+</nav>
+<section id="content">
+	<router-outlet></router-outlet>
+</section>

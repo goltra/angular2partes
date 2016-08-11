@@ -1,0 +1,3 @@
+<ul *ngFor='#cliente of clientes'>
+	<li>{{cliente.nombre}} - {{cliente.telefono}} <a [routerLink]="['ClienteEdit',{nuevo: false}]">Editar</a></li>
+</ul>

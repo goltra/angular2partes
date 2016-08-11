@@ -1,0 +1,5 @@
+<form #frmCliente="ngForm" (ngSubmit)="onSubmit()">
+	<input type="text" #nombre="ngForm" ngControl="nombre" [(ngModel)]="cliente.nombre" >
+	<input type="text" #telefono="ngForm" ngControl="telefono" [(ngModel)]="cliente.telefono" >
+	<input type="submit" value="Guardar">
+</form>
